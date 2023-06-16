@@ -1,0 +1,74 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.whole-rec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.perfume-description, .perfume {
+    font-size: 14px;
+    border: 1px solid red;
+    width: 190px;
+}
+
+.product-img {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.perfume-name {
+    font-weight: bold;
+    font-size: 27px;
+    border: 1px solid red;
+    width: 175px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+.right-rec {
+    border: 1px solid red;
+    width: 180px;
+    height: 343px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    bottom: 2px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.price {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sale-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(6, 56, 6, 0.788);
+}
+
+.orig-price {
+    font-size: 12px;
+}
+
